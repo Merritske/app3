@@ -7,7 +7,9 @@ export default function Diece(props){
     }
 
 return(
-    <div className="diece" style= {styleDiece}>
+    <div className="diece" style= {styleDiece}
+    onClick={props.holdDice}
+    >
       <h2 className="dieceText">{props.value} </h2> 
     </div>
 )
